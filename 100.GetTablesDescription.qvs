@@ -1,8 +1,4 @@
-// test the file again
-// -- 11072018 - Dimitar Prodanov version 1 for sense 
-/*
-	Този файл изчита настройката и подготвя таблица с включените таблици в съответния екстрактор
-*/
+
 Sub GetTablesToExtract(vL._Server, vL.ExtractName)
 $(Include=$(vG.SubPath)1.fileexist.qvs);
 
