@@ -1,0 +1,17 @@
+SET ThousandSep=' ';
+SET DecimalSep='.';
+SET MoneyThousandSep=',';
+SET MoneyDecimalSep='.';
+SET MoneyFormat='BGN #,##0.00;(BGN #,##0.00)';
+SET TimeFormat='hh:mm:ss';
+SET DateFormat='DD/MM/YYYY' & 'г.';
+SET TimestampFormat='DD/MM/YYYY hh:mm:ss[.fff] year';
+SET MonthNames='Jan;Feb;Mar;Apr;May;Jun;Jul;Aug;Sep;Oct;Nov;Dec';
+SET DayNames='Mon;Tue;Wed;Thu;Fri;Sat;Sun';
+
+Set Num0Format = '#$(ThousandSep)##0' ;
+Set Num1Format = '#$(ThousandSep)##0$(DecimalSep)0' ;
+Set Num2Format = '#$(ThousandSep)##0$(DecimalSep)00' ;
+Set Num3Format = '#$(ThousandSep)##0$(DecimalSep)000' ;
+
+Set NullValue = 'NA' ;
