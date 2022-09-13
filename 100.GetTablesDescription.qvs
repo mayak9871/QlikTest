@@ -18,5 +18,13 @@ $(Include=$(vG.SubPath)1.fileexist.qvs);
 		(Server = '$(vL._Server)' And [Extractor name] = '$(vL.ExtractName)' And Inactive='No')
 	;
 	
-	
+		Left Join (dbDesc)
+		Load
+			[DB Type]
+			, [Desc SQL]
+		From
+			[$(vL.RepositoryPath)]	(ooxml, embedded labels, table is [DB Desc])
+		;		
+
+		
 End Sub
