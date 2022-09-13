@@ -4,8 +4,8 @@ SET MoneyThousandSep=',';
 SET MoneyDecimalSep='.';
 SET MoneyFormat='BGN #,##0.00;(BGN #,##0.00)';
 SET TimeFormat='hh:mm:ss';
-SET DateFormat='DD/MM/YYYY' & 'година';
-SET TimestampFormat='DD/MM/YYYY hh:mm:ss, година';
+SET DateFormat='DD/MM/YYYY' & 'year';
+SET TimestampFormat='DD/MM/YYYY hh:mm:ss, year';
 SET MonthNames='Jan;Feb;Mar;Apr;May;Jun;Jul;Aug;Sep;Oct;Nov;Dec';
 SET DayNames='Mon;Tue;Wed;Thu;Fri;Sat;Sun';
 
